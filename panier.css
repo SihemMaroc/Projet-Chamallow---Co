@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd6e8;
+  font-family: Arial, sans-serif;
+  color: #5b2b43;
+}
+
+/* HEADER */
+
+.hero {
+  background-color: #ffd6e8;
+  text-align: center;
+}
+
+.logo img {
+  width: 70px;
+  margin: 10px 0;
+}
+
+.navbar {
+  background-color: #8d4f6d;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-menu a:hover {
+  color: #ffd6e8;
+}
+
+/* PANIER */
+
+.panier-page {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.panier-container {
+  background-color: #fff8fb;
+  width: 100%;
+  max-width: 650px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(120, 60, 90, 0.15);
+}
+
+.panier-container h1 {
+  text-align: center;
+  color: #e76aa0;
+  margin-bottom: 25px;
+}
+
+.produit-panier {
+  background-color: #ffe6f0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 18px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.produit-panier img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+}
+
+.produit-info h2 {
+  font-size: 17px;
+  color: #b84c7a;
+  margin-bottom: 8px;
+}
+
+.prix {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.produit-info label {
+  font-size: 14px;
+}
+
+.produit-info input {
+  width: 55px;
+  padding: 4px;
+  border: 1px solid #e76aa0;
+  border-radius: 5px;
+  margin: 0 8px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.btn-supprimer {
+  background-color: #ff8fbd;
+  color: white;
+  padding: 6px 12px;
+}
+
+.btn-supprimer:hover {
+  background-color: #d9578a;
+}
+
+.total {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.total p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.btn-valider {
+  background-color: #d9578a;
+  color: white;
+  padding: 12px 25px;
+}
+
+.btn-valider:hover {
+  background-color: #b84472;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #ff72a8;
+  color: white;
+  text-align: center;
+  padding: 18px;
+  font-weight: bold;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 600px) {
+  .nav-menu {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .produit-panier {
+    flex-direction: column;
+    text-align: center;
+  }
+}

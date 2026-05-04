@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier</title>
+  <link rel="stylesheet" href="panier.css">
+</head>
+
+<body>
+
+  <header class="hero">
+    <div class="logo">
+      <a href="index.html">
+        <img src="image/Créer une image d'un.png" alt="Logo Chamallow & Co">
+      </a>
+    </div>
+
+    <nav class="navbar">
+      <ul class="nav-menu">
+        <li><a href="propos.html">À propos</a></li>
+        <li><a href="panier.html">Panier</a></li>
+        <li><a href="vetement.html">Vêtements</a></li>
+        <li><a href="papeterie.html">Papeterie</a></li>
+        <li><a href="accessoires.html">Accessoires</a></li>
+        <li><a href="bienêtre.html">Bien-être</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="panier-page">
+
+    <section class="panier-container">
+      <h1>Mon Panier</h1>
+
+      <div class="produit-panier">
+        <img src="image/bougie.png" alt="Bougie Recharge Mentale Vanille">
+
+        <div class="produit-info">
+          <h2>Bougie Recharge Mentale</h2>
+          <p class="prix">Prix : 18,90 €</p>
+
+          <label for="quantite-bougie">Quantité :</label>
+          <input type="number" id="quantite-bougie" value="1" min="1">
+
+          <button class="btn-supprimer">Retirer</button>
+        </div>
+      </div>
+
+      <div class="produit-panier">
+        <img src="image/bracelet vert émeraude.png" alt="Bracelet Douceur">
+
+        <div class="produit-info">
+          <h2>Bracelet Douceur</h2>
+          <p class="prix">Prix : 10,90 €</p>
+
+          <label for="quantite-bracelet">Quantité :</label>
+          <input type="number" id="quantite-bracelet" value="1" min="1">
+
+          <button class="btn-supprimer">Retirer</button>
+        </div>
+      </div>
+
+      <div class="total">
+        <p>Total : <strong>27,80 €</strong></p>
+        <button class="btn-valider">Valider la commande</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© Chamallow & Co — Créée par Siham Bellaha</p>
+  </footer>
+
+</body>
+</html>

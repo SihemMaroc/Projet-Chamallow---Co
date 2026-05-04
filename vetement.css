@@ -1,0 +1,334 @@
+/* logo + barre de navigation*/
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto 20px auto;
+    box-shadow: 0 2px 5px   rgba(0a, 0, 0, 0.1);
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 15px;
+  padding: 12px 0;
+  background-color: #8d5876;
+ justify-content: center;
+  font-size: 1.5em;
+  height: auto;
+
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+/* partie Sweat  */
+.produit-sweat{
+    background-color: #f485c0;
+    border-left: 4px solid #ef88bf;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 40px auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(211, 107, 163, 0.2);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.produit-sweat h3{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.produit-sweat .phrase{
+   font-size: 15px;
+   color:#000000;
+   margin-bottom: 10px;
+   text-align: left;
+}
+
+.produit-sweat ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.produit-sweat ul li{
+   background-color: #fef6f9;
+   border-left: 3px solid #d36ba3;
+   padding: 8px 12px;
+   margin-bottom: 8px;
+   border-radius: 8px;
+   font-size: 14px;
+   color: #000000;
+}
+.produit-sweat .prix {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+
+
+}
+
+.produit-sweat {
+  width: 80%;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.produit-sweat img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+
+
+
+.produit-sweat.button{
+    background-color: #d36ba3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+body{
+
+    background-color: #ffd6ec;
+}
+.produit-sweat img {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.prix {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d87c9c;
+  background-color: #ffe4ec;
+  padding: 4px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.footer-bas {
+
+  border-top: 4px solid;
+  background-color: #ffd6ec;
+
+  text-align: center;
+  padding: 30px 15px;
+  font-family:'Poppins', sans-serif;
+}
+
+.barre-footer{
+background-color: #fd78a9;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+  
+
+.barre-footer  a {
+ text-decoration: none;
+  color:white;
+  font-weight:  bold;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+  
+
+}
+.icone a {
+  margin: 0 20px;
+  padding: 25px;
+  font-size: 18px;
+  color: white !important
+}
+
+.icone a:hover {
+  color: white !important;
+}
+
+.copy {
+  color: white !important;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.contact-lien {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+/* partie t-shirt */
+.produit-tshirt{
+    background-color: #f485c0;
+    border-left: 4px solid #ef88bf;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 40px auto;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(211, 107, 163, 0.2);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.produit-tshirt h3{
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.produit-tshirt .phrase-tshirt{
+   font-size: 15px;
+   color:#000000;
+   margin-bottom: 10px;
+   text-align: left;
+}
+
+.produit-tshirt ul{
+    list-style: none;
+    padding-left: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.produit-tshirt ul li{
+   background-color: #fef6f9;
+   border-left: 3px solid #d36ba3;
+   padding: 8px 12px;
+   margin-bottom: 8px;
+   border-radius: 8px;
+   font-size: 14px;
+   color: #000000;
+}
+.produit-tshirt .prix {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+
+
+}
+
+.produit-tshirt img {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+
+.produit-tshirt .button{
+    background-color: #d36ba3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.tshirt{
+  width: 80%;
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.tshirt img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* partie tableau  grid */
+
+.grille-produit {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  padding: 20px;
+}
+
+
+.produit {
+  background-color: #ffd6ec;
+border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 0 2px #f3a6c4;
+}
+
+
+
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.produit h3 {
+  font-size: 1.2em;
+  color: #a84c7c;
+  margin-bottom: 10px;
+}
+
+.produit p {
+  font-size: 0.95em;
+  color: #5b3852;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.produit a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #fd8ec9;
+  color: rgb(255, 252, 254);
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 1em;
+}
+
+.produit a:hover {
+
+  background-color: #ffd6ec;
+  box-shadow: 0 0 10px #e6d6f5; 
+}
+
+.grille-produit h3 {
+font-size: 1.5em;
+
+}
+

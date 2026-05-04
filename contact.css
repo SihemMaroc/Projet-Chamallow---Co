@@ -1,0 +1,202 @@
+.logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto 20px auto;
+    box-shadow: 0 2px 5px   rgba(0a, 0, 0, 0.1);
+}
+
+
+
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 15px;
+  padding: 12px 0;
+  background-color: #8d5876;
+ justify-content: center;
+  font-size: 1.5em;
+  height: auto;
+
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+}
+
+.map-container {
+  margin-top: 30px;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(220, 160, 200, 0.2);
+}
+body{
+    background-color: #ffd6ec;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+main h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    color: rgb(243, 131, 198);
+    margin-top: 40px;
+}
+
+
+.Liste ul {
+  list-style: none;
+  padding: 0;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.Liste li {
+  background-color: #fffafc;
+  border-left: 4px solid #d36ba3;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #000000;
+}
+
+
+
+
+.contact-formulaire {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff0f5;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(220, 160, 200, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.formulaire {
+  background-color: #fffafc;
+  border-left: 4px solid #d36ba3;
+  padding: 30px;
+  margin: 40px auto;
+  border-radius: 12px;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(211, 107, 163, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-formulaire label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #444;
+}
+
+.contact-formulaire input[type="text"],
+.contact-formulaire input[type="email"],
+.contact-formulaire textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0b7cb;
+  border-radius: 8px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.contact-formulaire textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-formulaire input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.contact-formulaire button {
+  background-color: #d36ba3;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.prix {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d87c9c;
+  background-color: #ffe4ec;
+  padding: 4px 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+.footer-bas {
+
+  border-top: 4px solid;
+  background-color: #ffd6ec;
+
+  text-align: center;
+  padding: 30px 15px;
+  font-family:'Poppins', sans-serif;
+}
+
+.barre-footer{
+background-color: #fd78a9;
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+  
+
+.barre-footer  a {
+ text-decoration: none;
+  color:white;
+  font-weight:  bold;
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 25px;
+  
+
+}
+
+
+
+
+
+.icone a {
+  margin: 0 20px;
+  padding: 25px;
+  font-size: 18px;
+  color: white
+}
+
+.icone a:hover {
+  color: white;
+}
+
+.copy {
+  color: white !important;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+}
